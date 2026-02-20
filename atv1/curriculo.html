@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculo</title>
+
+</head>
+
+<body>
+    <table width="100%">
+        <tr>
+            <td valign="top">
+                <img src="user.png" alt="Foto do Usuário" width="300">
+            </td>
+
+            <td width="80%" valign="top">
+                <h2><u>DADOS PESSOAIS</u></h2>
+
+                <table>
+                    <tr>
+                        <td><b>Nome:</b> Miguel Vannucci Piza Pimentel</td>
+                    </tr>
+                    <tr>
+                        <td><b>Data de Nasc.:</b> 09/11/2008 </td>
+                        <td><b>Est. Civil:</b> Solteiro</td>
+                    </tr>
+                    <tr>
+                        <td><b>Endereço:</b> Avenida Chico Mendes</td>
+                        <td><b>Número:</b> 539</td>
+                    </tr>
+                    <tr>
+                        <td><b>Bairro:</b> Nilson Neves</td>
+                    </tr>
+                    <tr>
+                        <td><b>Cidade:</b> Paranaguá</td>
+                        <td><b>CEP:</b> 80000-000</td>
+                    </tr>
+                    <tr>
+                        <td><b>CPF:</b> 122.048.379-62</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2><u>QUALIFICAÇÃO PROFISSIONAL</u></h2>
+    <ul>
+        <li>
+            <b>Áreas de Atuação:</b> Linguagens de Programação - Engenharia de Software -
+            Banco de Dados - Projeto e Desenvolvimento de Software - Internet das Coisas.
+        </li>
+        <br>
+        <li>
+            <b>Tecnologias:</b> Linguagem Java - Linguagem C - Banco de Dados MySQL.
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2><u>FORMAÇÃO ACADÊMICA</u></h2>
+
+    <ol>
+        <li>
+            <b>Graduação Máxima:</b> Curso Tecnico em Informática
+            <ul>
+                <li><b>Instituição:</b> Instituto Federal do Paraná - IFPR</li>
+                <li><b>Data de Início:</b> 09/02/2024</li>
+                <li><b>Data de previsão de Conclusão:</b> 12/2027</li>
+                <li><b>Estado:</b> Cursando</li>
+            </ul>
+        </li>
+    </ol>
+
+    <hr>
+
+    <h2><u>FORMULÁRIO DE CONTATO</u></h2>
+
+    <form id="formContato">
+        <table>
+            <tr>
+                <td>
+                    <p><b>Assunto:</b></p>
+                </td>
+                <td>
+                    <label>
+                        <input type="radio" name="assunto" value="Dúvidas" checked>
+                        Dúvidas
+                    </label>
+
+                    <label>
+                        <input type="radio" name="assunto" value="Mais Informações">
+                        Mais Informações
+                    </label>
+
+                    <label>
+                        <input type="radio" name="assunto" value="Contratação">
+                        Contratação
+                    </label>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <label><b>Nome:</b>
+                        <input type="text" name="nome" id="nome" required>
+                    </label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>E-mail:</b>
+                        <input type="email" name="email" id="email" required>
+                    </label><br>
+                </td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
