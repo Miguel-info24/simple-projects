@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+nav {
+  width: 250px;
+  background: #cfcfcf;
+  padding: 20px;
+}
+
+nav h1 {
+  text-align: center;
+}
+
+nav h2 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.colors-line {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.violet-box,
+.salmon-box,
+.blue-box,
+.yellow-box,
+.orange-box,
+.green-box {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.violet-box { background: #d36ad6; }
+.salmon-box { background: salmon; }
+.blue-box { background: lightblue; }
+.yellow-box { background: beige; }
+.orange-box { background: orange; }
+.green-box { background: lightgreen; }
+
+.border {
+  border: 3px solid #555;
+}
+
+.quadrate {
+  width: 30px;
+  height: 30px;
+  background: #d36ad6;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background: #d36ad6;
+  border-radius: 50%;
+}
+
+.input-number {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.box-flex {
+  width: 140px;
+  height: 140px;
+  background: #d36ad6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #555;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}   
