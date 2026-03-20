@@ -1,0 +1,96 @@
+$bg-sidebar: #cfcfcf;
+$primary: #d36ad6;
+$border: #555;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+nav {
+  width: 250px;
+  background: $bg-sidebar;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}
+
+.colors-line {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+%color-box {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.violet-box { @extend %color-box; background: #d36ad6; }
+.salmon-box { @extend %color-box; background: salmon; }
+.blue-box { @extend %color-box; background: lightblue; }
+.yellow-box { @extend %color-box; background: beige; }
+.orange-box { @extend %color-box; background: orange; }
+.green-box { @extend %color-box; background: lightgreen; }
+
+.border {
+  border: 3px solid $border;
+}
+
+.quadrate {
+  width: 30px;
+  height: 30px;
+  background: $primary;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background: $primary;
+  border-radius: 50%;
+}
+
+.input-number {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.box-flex {
+  width: 140px;
+  height: 140px;
+  background: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid $border;
+  font-size: 24px;
+}

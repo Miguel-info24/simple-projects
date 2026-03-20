@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador - Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <h1>SIMULADOR</h1>
+        <h1>Flexbox</h1>
+
+        <h2>Preenchimento</h2>
+        <div class="colors-line">
+            <a href="#" onclick="clickColor(0); return false;"><div class="violet-box border color-box" id="box0"></div></a>
+            <a href="#" onclick="clickColor(1); return false;"><div class="salmon-box color-box" id="box1"></div></a>
+            <a href="#" onclick="clickColor(2); return false;"><div class="blue-box color-box" id="box2"></div></a>
+        </div>
+        <div class="colors-line"> 
+            <a href="#" onclick="clickColor(3); return false;"><div class="yellow-box color-box" id="box3"></div></a>
+            <a href="#" onclick="clickColor(4); return false;"><div class="orange-box color-box" id="box4"></div></a>
+            <a href="#" onclick="clickColor(5); return false;"><div class="green-box color-box" id="box5"></div></a>        
+        </div>
+    
+        <h2>Formato</h2>
+        <div class="colors-line">
+            <a href="#" onclick="clickFormat(0); return false;"><div class="quadrate border" id="format0"></div></a>
+            <a href="#" onclick="clickFormat(1); return false;"><div class="circle" id="format1"></div></a>
+        </div>
+
+        <h2>Tamanho</h2>
+        <input type="number" value="140" id="size" min="100" max="180" step="10" class="input-number" onKeypress="event.preventDefault();" onchange="changeSize(this.value)">
+    
+    
+        <h2>Alinhamento</h2>
+        <select id="direction" onchange="changeDirection(this.value);">
+            <option selected="true" disabled>FLEX-DIRECTION</option>
+            <option>row</option>
+            <option>row-reverse</option>
+            <option>column</option>
+            <option>column-reverse</option>   
+        </select>
+        <select id="justify" onchange="changeJustify(this.value);">
+            <option selected="true" disabled>JUSTIFY-CONTENT</option>
+            <option>center</option>
+            <option>flex-start</option>
+            <option>flex-end</option>
+            <option>space-around</option>
+            <option>space-between</option>
+        </select>
+        <select id="align" onchange="changeAlign(this.value);">
+            <option selected="true" disabled>ALIGN-ITEMS</option>
+            <option>center</option>
+            <option>flex-start</option>
+            <option>flex-end</option>
+            <option>stretch</option> 
+            <option>baseline</option> 
+        </select>
+        
+    </nav>
+
+    <main id="main">
+        <div class="box-flex" id="box">1</div>
+        <div class="box-flex" id="box">2</div>
+        <div class="box-flex" id="box">3</div>
+    </main>
+</body>
+<script src="js/script.js"></script>
+</html>
