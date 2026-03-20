@@ -1,0 +1,89 @@
+html, body{
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, lightblue, white);
+    position: fixed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(to right, darkblue, lightblue);
+    padding: 11px;
+    text-align: center;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+header h1{
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    text-shadow: 8px 8px black;
+}
+
+#modo-display{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 20px;
+    height: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.container .card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px blue;
+    width: 400px;
+    height: 300px;
+    padding-top: 30px;
+    margin-top: 100px;
+    text-align: center;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.container .card:hover{
+    transform: scale(1.05);
+}
+
+.container .card img{
+    width: 350px;
+    height: 300px;
+}
+
+footer{
+    background-image: linear-gradient(to right, darkblue, lightblue);
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
