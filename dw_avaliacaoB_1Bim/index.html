@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gerenciador de Atividades</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", { packages: ['corechart'] });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar d-flex justify-content-center">GERENCIADOR DE ATIVIDADES</nav>
+    <div class="container">
+        <div class="form-container d-flex align-items-center justify-content-center flex-row">
+            <form class="form" id="form-atividade">
+
+                <h5>Adicionar Atividade</h5>
+                <div class="form-input">
+                    <input type="text" placeholder="Nome da Atividade" id="atividade" class="form-input-text">
+                    <br>
+                    <select name="classificacao" class="form-input-select">
+                        <option value="" disabled selected hidden></option>
+                        <option value="academia">Acadêmia</option>
+                        <option value="domestica">Doméstica</option>
+                        <option value="fisica">Física</option>
+                        <option value="lazer">Lazer/Recreativa</option>
+                    </select>
+                    <br>
+                    <input type="date" id="date" name="data" class="form-input-date" required>
+                    <button type="submit" class="button-save" data-bs-toggle="modal" data-bs-target="#modalAtv"
+                        value="salvar">
+                        salvar
+                    </button>
+                </div>
+            </form>
+            <div class="graph">
+                <div id="columnchart_values" class="graph-content"></div>
+            </div>
+        </div>
+        <div class="box-status">
+            <div class="box-status-open">
+                <h5>PENDENTES: <span id="qtd-pendentes">0</span></h5>
+            </div>
+            <div class="box-status-finished">
+                <h5>FINALIZADAS: <span id="qtd-finalizadas">0</span></h5>
+            </div>
+            <div class="box-status-total">
+                <h5>TOTAL: <span id="qtd-total">0</span></h5>
+            </div>
+        </div>
+        <div class="form-search">
+
+            <h5>FILTRO DE ATIVIDADES</h5>
+            <div class="form-content">
+                <div class="form-filter">
+                    <select class="form-input-select" id="filtro-tipo">
+                        <option value="todos">Todos os tipos de atividades</option>
+                        <option value="academia">Acadêmia</option>
+                        <option value="domestica">Doméstica</option>
+                        <option value="fisica">Física</option>
+                        <option value="lazer">Lazer/Recreativa</option>
+                    </select>
+                </div>
+                <div class="box-checks">
+                    <label>
+                        <input type="checkbox" id="filtro-pendentes">
+                        Pendentes
+                    </label>
+
+                    <label>
+                        <input type="checkbox" id="filtro-finalizadas">
+                        Finalizadas
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="box-table">
+            <div class="header-row">
+                <span>Atividade</span>
+                <span>Classificação</span>
+                <span>Data</span>
+                <span>Ações</span>
+
+            </div>
+            <div id="lista-atividades" class="lista-atividades"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

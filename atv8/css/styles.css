@@ -1,0 +1,30 @@
+body {
+    background: #eee;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg, green, purple, darkred);
+}
+
+.covid-btn, .mpox-btn, .ebola-btn {
+    position: fixed;
+    text-align: center;
+    cursor: pointer;
+}
+
+#ebolaCanvas {
+    --bs-offcanvas-height: 500px;
+}
+
+.covid-btn { left: 10px; top: 50%; }
+.mpox-btn { right: 10px; top: 50%; }
+.ebola-btn { bottom: 10px; left: 50%; transform: translateX(-50%); }
+
+/* Headers */
+.header-covid { background: green; color: white; }
+.header-mpox { background: darkred; color: white; }
+.header-ebola { background: purple; color: white; }
