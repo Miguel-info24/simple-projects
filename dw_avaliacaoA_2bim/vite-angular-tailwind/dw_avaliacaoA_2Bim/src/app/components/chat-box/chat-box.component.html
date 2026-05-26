@@ -1,0 +1,39 @@
+<div class="chat-box">
+
+  <div class="chat-header">
+    <h2>Conversas</h2>
+
+    <input
+      type="text"
+      placeholder="Procurar uma conversa"
+    >
+  </div>
+
+  <div
+    class="chat-user"
+    *ngFor="let user of users"
+  >
+
+    <img
+      [src]="user.photo"
+      [alt]="user.name"
+    >
+
+    <div class="user-info">
+      <span class="name">
+        {{ user.name }}
+      </span>
+
+      <span class="message">
+        mensagem exemplo...
+      </span>
+    </div>
+
+    <span class="time">
+      12:30
+    </span>
+
+  </div>
+
+</div>
+

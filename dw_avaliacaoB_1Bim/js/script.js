@@ -192,3 +192,4 @@ function atualizarGrafico() {
 
 google.charts.load("current", { packages: ["corechart"] });
 google.charts.setOnLoadCallback(atualizarTudo);
+

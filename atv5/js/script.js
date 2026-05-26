@@ -68,3 +68,6 @@ function changeAlign(value){
     let main = document.querySelector('#main');
     main.style.setProperty('align-items', value);
 }
+
+
+

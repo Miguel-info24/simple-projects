@@ -150,3 +150,6 @@ function getCategoryColor(category: string) {
             return 'bg-blue-100 text-blue-700';
     }
 }
+
+
+
