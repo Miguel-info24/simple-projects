@@ -7,6 +7,13 @@
   <div class="search-box">
     <input type="text" placeholder="Procurar uma conversa" />
   </div>
+  <button class="archived-btn">
+    <i class="bi bi-archive-fill"></i>
+    <p>Arquivados</p>
+    <span class="badge">
+      {{ archivedCount }}
+    </span>
+  </button>
 
   <div class="chat-item" *ngFor="let user of users" (click)="selectChat(user)">
 
@@ -18,18 +25,20 @@
         <span class="name">
           {{ user.name }}
         </span>
-
-        <span class="time">
-          12:23
-        </span>
       </div>
-
+      
       <div class="chat-bottom">
         <span class="email">
           {{ user.email }}
         </span>
+        <div class="msg-footer">
+          <span class="time">
+            12:23
+          </span>
+          <i class="bi bi-pin-fill pin-gambiarra"></i>
+        </div>
       </div>
-
+      
     </div>
 
   </div>

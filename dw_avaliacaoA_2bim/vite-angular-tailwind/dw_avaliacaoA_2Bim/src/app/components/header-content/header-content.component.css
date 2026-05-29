@@ -1,60 +1,76 @@
 .header-container {
-  height: 72px;
-  background: #f0f2f5;
-  border-bottom: 1px solid #d1d7db;
-
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 
+  height: 70px;
   padding: 0 20px;
+
+  background: lightgray;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.contact-section {
+.header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
 }
 
-.profile-img {
-  width: 42px;
-  height: 42px;
+.avatar {
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.contact-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-info h3 {
+.header h3 {
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
-  color: #111b21;
+  color: gray;
+  font-weight: 600;
 }
 
-.contact-info span {
+.header p {
+  margin: 2px 0 0;
   font-size: 13px;
-  color: #667781;
+  color: gray;
 }
 
 .actions {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .icon-btn {
+  width: 42px;
+  height: 42px;
+
   border: none;
+  border-radius: 50%;
+
   background: transparent;
+  color: gray;
+
   cursor: pointer;
+  transition: all 0.2s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-btn i {
   font-size: 18px;
-  color: #54656f;
-  transition: 0.2s;
 }
 
 .icon-btn:hover {
-  color: #111b21;
+  background: #2a3942;
+  color: #ffffff;
+}
+h3 {
+  margin: 0;
+  font-size: 16px;
+  color: gray;
+  font-weight: 600;
 }

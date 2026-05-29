@@ -6,12 +6,18 @@
 
         <div class="message received">
             <p>📧 {{ user.email }}</p>
-            <span class="time">10:30</span>
+            <div class="msg-footer">
+                <span class="time">10:30</span>
+                <i class="bi bi-check2-all"></i>
+            </div>
         </div>
 
         <div class="message sent">
             <p>📞 {{ user.phone }}</p>
-            <span class="time">10:31</span>
+            <div class="msg-footer">
+                <span class="time">10:31</span>
+                <i class="bi bi-check2-all"></i>
+            </div>
         </div>
 
         <div class="message received">
@@ -19,7 +25,10 @@
                 🌍 {{ user.city }},
                 {{ user.country }}
             </p>
-            <span class="time">10:32</span>
+            <div class="msg-footer">
+                <span class="time">10:32</span>
+                <i class="bi bi-check2-all"></i>
+            </div>
         </div>
 
     </main>
