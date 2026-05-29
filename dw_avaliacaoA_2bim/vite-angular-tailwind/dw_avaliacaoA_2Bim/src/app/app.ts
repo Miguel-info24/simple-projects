@@ -14,35 +14,44 @@ import { UserApi } from '../api/user.api';
 export class AppComponent implements OnInit {
 
   users: any[] = [];
+  selectedUser: any = null;
 
   constructor(
-  private userApi: UserApi,
-  private cdr: ChangeDetectorRef
-) {}
+    private userApi: UserApi,
+    private cdr: ChangeDetectorRef
+  ) { }
 
   ngOnInit() {
     this.loadUsers();
   }
 
   loadUsers() {
-  this.userApi.getUsers().subscribe({
-    next: (response) => {
+    this.userApi.getUsers().subscribe({
+      next: (response) => {
 
-      this.users = response.results.map((user: any) => ({
-        name: `${user.name.first} ${user.name.last}`,
-        photo: user.picture.medium
-      }));
+        this.users = response.results.map((user: any) => ({
+          name: `${user.name.first} ${user.name.last}`,
+          photo: user.picture.medium,
+          email: user.email,
+          phone: user.phone,
+          city: user.location.city,
+          country: user.location.country
+        }));
 
-      this.cdr.detectChanges();
+        this.cdr.detectChanges();
 
-      console.log('TOTAL:', this.users.length);
-    },
+        console.log('TOTAL:', this.users.length);
+      },
 
-    error: (err) => {
-      console.error(err);
-    }
-  });
+      error: (err) => {
+        console.error(err);
+      }
+    });
+  }
+
+  selectUser(user: any) {
+  this.selectedUser = user;
 }
 }
 
- 
+

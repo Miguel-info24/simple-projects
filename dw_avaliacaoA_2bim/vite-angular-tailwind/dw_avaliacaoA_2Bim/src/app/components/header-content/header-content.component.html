@@ -1,16 +1,14 @@
 <div class="header-container">
 
-  <div class="contact-section">
-    <img
-      src="https://i.pravatar.cc/150?img=12"
-      alt="perfil"
-      class="profile-img"
-    />
+  <div class="header" *ngIf="user">
 
-    <div class="contact-info">
-      <h3>Vernon</h3>
-      <span>online</span>
+    <img [src]="user.photo" class="avatar">
+
+    <div>
+      <h3>{{ user.name }}</h3>
+      <p>Online</p>
     </div>
+
   </div>
 
   <div class="actions">

@@ -8,7 +8,7 @@
     <input type="text" placeholder="Procurar uma conversa" />
   </div>
 
-  <div class="chat-item" *ngFor="let user of users">
+  <div class="chat-item" *ngFor="let user of users" (click)="selectChat(user)">
 
     <img [src]="user.photo" class="avatar" alt="Foto do usuário">
 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-header-content',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './header-content.component.html',
   styleUrl: './header-content.component.css'
 })
-export class HeaderContentComponent {}
+export class HeaderContentComponent {
+
+  @Input() user: any;
+}
