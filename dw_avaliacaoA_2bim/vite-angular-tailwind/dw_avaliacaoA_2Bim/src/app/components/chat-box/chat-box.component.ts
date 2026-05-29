@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -10,21 +10,6 @@ import { CommonModule } from '@angular/common';
 })
 export class ChatBoxComponent {
 
-  users = [
-    {
-      name: 'Miguel',
-      photo: 'https://randomuser.me/api/portraits/men/1.jpg'
-    },
-    {
-      name: 'Ana',
-      photo: 'https://randomuser.me/api/portraits/women/2.jpg'
-    },
-    {
-      name: 'Carlos',
-      photo: 'https://randomuser.me/api/portraits/men/3.jpg'
-    }
-  ];
+  @Input() users: any[] = [];
 
 }
-
- 

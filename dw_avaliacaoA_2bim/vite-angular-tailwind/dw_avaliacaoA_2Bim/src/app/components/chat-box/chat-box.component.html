@@ -1,40 +1,37 @@
-<div class="chat-box">
+<div class="chat-sidebar">
 
-  <div class="chat-header">
+  <div class="sidebar-header">
     <h2>Conversas</h2>
-
-    <input
-      type="text"
-      placeholder="Procurar uma conversa"
-    >
   </div>
 
-  <div
-    class="chat-user"
-    *ngFor="let user of users"
-  >
+  <div class="search-box">
+    <input type="text" placeholder="Procurar uma conversa" />
+  </div>
 
-    <img
-      [src]="user.photo"
-      [alt]="user.name"
-    >
+  <div class="chat-item" *ngFor="let user of users">
 
-    <div class="user-info">
-      <span class="name">
-        {{ user.name }}
-      </span>
+    <img [src]="user.photo" class="avatar" alt="Foto do usuário">
 
-      <span class="message">
-        mensagem exemplo...
-      </span>
+    <div class="chat-info">
+
+      <div class="chat-top">
+        <span class="name">
+          {{ user.name }}
+        </span>
+
+        <span class="time">
+          12:23
+        </span>
+      </div>
+
+      <div class="chat-bottom">
+        <span class="email">
+          {{ user.email }}
+        </span>
+      </div>
+
     </div>
-
-    <span class="time">
-      12:30
-    </span>
 
   </div>
 
 </div>
-
- 

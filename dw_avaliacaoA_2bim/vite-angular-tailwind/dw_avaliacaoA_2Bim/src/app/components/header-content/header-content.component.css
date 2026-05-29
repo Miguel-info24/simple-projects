@@ -1,0 +1,60 @@
+.header-container {
+  height: 72px;
+  background: #f0f2f5;
+  border-bottom: 1px solid #d1d7db;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 20px;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111b21;
+}
+
+.contact-info span {
+  font-size: 13px;
+  color: #667781;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  color: #54656f;
+  transition: 0.2s;
+}
+
+.icon-btn:hover {
+  color: #111b21;
+}

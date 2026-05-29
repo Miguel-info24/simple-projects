@@ -1,7 +1,8 @@
 {
-<<<<<<< HEAD
   "name": "vite-angular",
   "version": "0.0.0",
+  "private": true,
+  "packageManager": "npm@10.9.7",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,8 +11,6 @@
     "test": "ng test",
     "serve:ssr:vite-angular": "node dist/vite-angular/server/server.mjs"
   },
-  "private": true,
-  "packageManager": "npm@10.9.7",
   "dependencies": {
     "@angular/common": "^21.2.0",
     "@angular/compiler": "^21.2.0",
@@ -38,26 +37,5 @@
     "tailwindcss": "^4.1.12",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
-=======
-  "name": "simple-projects",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "express": "^5.2.1"
->>>>>>> 0015ffe7a7ec40869d721d208f062061324095e7
   }
 }
-
-
-
-
- 

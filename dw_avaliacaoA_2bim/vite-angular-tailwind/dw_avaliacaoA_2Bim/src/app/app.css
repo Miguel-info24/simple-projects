@@ -10,3 +10,15 @@
 }
 
  
+main {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 390px;
+}
+
+.chat {
+  flex: 1;
+}
