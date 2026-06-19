@@ -4,9 +4,7 @@ export interface Filme {
   descricao: string;
   imagem: string;
   fundo: string;
-  avaliacao: number;
-  ano: number;
+  idade: number;
   genero: string[];
-  duracao: number;
-  diretor: string;
+
 }

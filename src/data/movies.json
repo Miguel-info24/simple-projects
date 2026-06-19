@@ -1,122 +1,149 @@
 [
   {
     "id": 1,
-    "titulo": "A Origem",
-    "descricao": "Um ladrão que rouba segredos corporativos através da tecnologia de compartilhamento de sonhos recebe a tarefa inversa de implantar uma ideia.",
-    "imagem": "https://images.unsplash.com/photo-1708810346958-dd3e69eac6a0?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://plus.unsplash.com/premium_photo-1748012830674-b91b04bf3d81?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avaliacao": 8.8,
-    "ano": 2010,
-    "genero": ["Ficção Científica", "Ação", "Thriller"],
-    "duracao": 148,
-    "diretor": "Christopher Nolan"
+    "titulo": "Origem",
+    "descricao": "A ameaça cresce  e a cidade  enfrenta perigos cada vez mais mortais Nova temporada",
+    "imagem": "https://api.metro1.com.br/filmes/164,serie-origem-transforma-uma-estrada-em-porta-de-entrada-para-um-suspense-sobre-a-sobrevivencia-e-o-sobrenatural-3.jpg",
+    "fundo": "https://api.metro1.com.br/filmes/164,serie-origem-transforma-uma-estrada-em-porta-de-entrada-para-um-suspense-sobre-a-sobrevivencia-e-o-sobrenatural-3.jpg",
+    "idade": 16,
+    "genero": [
+      "Serie Suspense Terror"
+    ]
   },
   {
     "id": 2,
-    "titulo": "Batman - O Cavaleiro das Trevas",
-    "descricao": "Quando a ameaça conhecida como Coringa causa caos e destruição em Gotham, o Batman deve aceitar um dos maiores testes psicológicos.",
-    "imagem": "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://plus.unsplash.com/premium_photo-1671229456411-659ff6049231?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avalicao": 9.0,
-    "ano": 2008,
-    "genero": ["Ação", "Crime", "Drama"],
-    "duracao": 152,
-    "diretor": "Christopher Nolan"
+    "titulo": "A GRANDE FAMILA",
+    "descricao": "Um retrato bem-humorado do cotidiano repleto de conflitos, crises conjugais, dificuldades profissionais e financeiras e também de muito amor e união de uma família suburbana.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpCVOiO5hNU-RQwmplzsO4KyHyV75VinPnOXfIzw4uLI6gONKFS8_-V6Oc_Qd-LWcyerQ8Tv_BGlq9cN1BltVVqy4k4_vbqBWzuPdUJ6id&s=10",
+    "fundo": "https://plus.unsplash.com/premium_photo-1748012830674-b91b04bf3d81?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "idade": 12,
+    "genero": [
+      "Serie Comédia"
+    ]
   },
   {
     "id": 3,
-    "titulo": "Interstellar",
-    "descricao": "Um grupo de astronautas viaja através de um buraco de minhoca perto de Saturno em busca de um novo lar para a humanidade.",
-    "imagem": "https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=418&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://plus.unsplash.com/premium_photo-1777751336652-27b991018ee9?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avaliacao": 8.6,
-    "ano": 2014,
-    "genero": ["Ficção Científica", "Drama", "Aventura"],
-    "duracao": 169,
-    "diretor": "Christopher Nolan"
+    "titulo": "Tapas & Beijos",
+    "descricao": "Grandes amigas, Fátima e Sueli tentam achar suas caras-metades enquanto trabalham em uma loja de aluguel de vestidos de noiva, ajudando mulheres a realizarem seus sonhos.",
+    "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAbAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xAA+EAACAQIEAwUFBgQFBQEAAAABAgMEEQAFEiExQVEGEyJhcSMygZGhBxRCscHwM1LR4RUkYnLxQ4KDkrIW/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDBAAF/8QAJBEAAgICAQUAAgMAAAAAAAAAAAECEQMSIQQiMUFRMnEUYYH/2gAMAwEAAhEDEQA/APRRIYUGsXdt/QYTS6hqDBHXci99vQfrjqyBE1yLdjwA6YehjlmTu/dL2e4sSvEn5A4wpWenJtDHLxSn7w8Y0cRrXj88d79JLJb3hueh/dsdWRqiZBIhAdrtbcC54n4/vhhNLG8KPokBZm0ja+1txv54NfBdvoy9QfBv6/3wmqAh0qtwu18SPIVmEIBJZtKkDfc2va+OPIkUY0qzRklSyWuPhzO/lgasO6foazSBgY/+oNQQ8fW3HHO8aIXkF3bl0GJ5iwqzpsYnYSrJyVdiG9Bt8sMVw8pcxtd2siqtyBjnH4cpfRneGVbxizry6jCDSE65RZF3ta18LvVZi0I1Mq3fce7+u9uHXDtZlVHItGSdV+o/5GOaYdl4GCp1nSy2DbXvhXqfc39f74d38T3RtQuPD4b78scNQ1goF5LeK6kWP6/3wP8ARvdUThGCLoMZA2N2sfyxA6SM5MTeE8bHnwxIKowgR65LjjY88Rs0gN4V1Id+GObQsVL2JWjcd5KABwUHDleKNi9jpZSoK8ASOY9Lj444qpN4jcKosBwwrJAbndH2645Np2GSTVCSrjkYBUY+zIazKbHTa4seHn9DyT92yogj8aIPDfa58RHU7kjhh7QmRAkUdg3ElTa30w40rvMZGKhy2o6RYfmcV7mvBDti/JGa4MyOySlyvjNh72m1xvvuAeWH0/ciV0ZJFRkZpBcHYC9zvy5YkMAuWVAzDoN8QpH3T6pASzAh0vYlWFiBf97YHcnyGouPax0b61amsNSAvAFuQRxK78SOI+OFHM04YGVo4QLhSQoO4Fjbj7w44YphUBDPGrIbozOEYdDY7g/DEkj09Ulu8WNvx3RgjHy22HlgpsWSj6Gao4oXljAOtlT05n8l+eJSoko0nN1RyVsd7EE8B02J/O+IgGUIirG0diNo248zx8vyw5hJvGu+qwbWmygXtbgBxOOXwMueRlkkiITSHYhUOlQdQG/LiSV24YnqHCVqRIQ12XgoswJH6dMcWkdDHY3KsWQc9RG2/S4H1xFL7EhZDoZF0qQtnA5b+XX64L4XIse50uRzJCVZ0ZfCfGGAOxJsfjtvyP1iMvcHQq3XiDfDhHqBaQgNJudItfe/XrbhjglWD2bXNuB8sSky8E65Od2JrKhsi7bczi3T0ywjxeMk334DHKOC1juFUfM4nndIYmklYJGilndtgAOJxbHBfkyObK71XglVdQvyxlsy+0bsplVQ0E2YGolXZhSxtIB/3Dw/XHnH2hdu6jO1loMsd6fKwdL22eo/3dF/0/PoMG6MkSlNiRcm3DFkzM0fRWT9v+yWbSLHDmscEpNljq1MJJPCxbY/A401TRw1CgSLcjgQbHHyOsj9SwHI88emfZb25nyqrgyjMZmkyyZhHEzm5p2J8Nj/AC32I5cdt7869gTado9WeFA7RSG7IbXvYkcsTRUIfTq2jG+nqcWKmlWSuWQjlcjrb9jEs7d3GSTawuTiMcSt2aZ5nSSBeb5pQZLCDUMFLe6kdtTfp8TjKVf2iU0M4aHL2lUbk99y+CkfXGPzPOEzzN5p6hwIixEate2kGw/fri3W9i8wzIDu5RT0gF1Q7NIf5mt9ByA6k4R5WnXhBWK1flm7yXtxkVdLGupoJJDbxrYIx4gnlv8ADGoqhCxCyldwSA3Cwx8+JQPlFeYauM6zfTc7MMeydm6lM37NUVX3sQ0R905lj1EMp07+fDFYy24ZKcNOUXZ6Mly+u6tw24YYvdgaZiNS7b9MX6anWZJU1xLrN/ZR6SPXfjirNSqr2ma7DmNrjEp46do0Y8ykqkwiiBUVRsLAAYC9taaSr7N5hTxTLBK0R0s97eHxEGwJsbdDg6jLtuNVuAOI6pY5V7qUizg3F+WND8GK+T5bq6SWjqBDWxyxqXLgyIVLqOBAPI/LBHKIhnua02WU8QHfHTe9rAbk+lr+uL3bGnqsz7aSUYrBUxI4ijeOxSCPUbDby3PmcehZB2Ly3I0SopzLJMwHjka5J5bDYYlLIkv7L44OfPoN03ZrKMsywUcNFDpK2ZmUEubbknHiGe5amWZ3mFCjFo47NGTx0tuP6fDHsmc5CuaTyVQmEU0ZKlzCji3L3gdseYdpMozGsz7M56HL6meGCNQ0qodICre9zxsOQwkJdxSce09v7G5i2cdmcrrpmDTSU4EjX4uPC31U4n7RrNJk1fHTfx3ppFj/ANxU2+uAP2TMf/weWgixVptv/K+NPWHbGn0ZfZ432KgpKusE8qqTBDHs3BCP2Dj1IVFKKEyGaPQo3ZTq/LGBq8iB7V1tJGz00dUFnR0FgTc6gPnvbcXxpIsvSkElKrB0WIM2rmQeOMb7WzeuUjLdtnpM2yuVqKS89P7QG2/9vjg19n8kHZ7sXPW5vOTTTSCV9KFwgYBQLAdbA/2xJnNDlyZfMaWJFllXxNosSPXnxOK4yCKbstFQTy1kKoneSL3h8QsAQyj3gLXtywYSonmi3G/YQyHtrFmGcVWU0+mTRr7qqQ+FlB2A6mx4+WNwk8KIFDNsPLHhtbkDZHLNGilittUqMdgeHnf+uN/2WFTV5WDUTwq0b6AJV1NawIub+eKLI74PO35o1nc3QODZtrjHmX2k1uYHM6bIFVzFVRiQsuwlckgKSehA+Y4Y3lVVosyf5tUtYiG6gnmb333xm8zpn7TZlHFWwQ2pmkWGWNWVgpXgQSRe4HoRgSlF9vssoNsFdnewa5ZBUyyyxyVMsyMjulwsaEG3lffcY0DKyPFp2hI8V0JZGHxFvltifK80M8RFQNTKxVpF5kG3D4YD5vnFZl+d9xRwxywmMMwc2LEk7+XyPwxD8nZujLTtCUcszipWMMQTZWYm8jeh5cMQ9r5o8n7IZgIysbLTMo8ZF5GW3qdzixldXLJlMmZtCqv4rKNwgFwfjtjLS9jq3tLU/wCI51VlYBIe4pUHDzbqbX3+GGilYMj9Gr+zSGOm7FZXHGwJ7oyMAbkF2Lb/ADxa7Q55QUaTQvVe3AItGpbSfO3D044qvqyWIvB+CF9utkJH1AwHoaKOek8Y1F9yx4k4M+paVVyDH06bbb4JqyaqzGlp6zKYYJu7bU6MSJFBtYpyO1wQePHChd3qfawSSqfdZIQZEPMNqIsfh8MCqTLa2iqa96aodRDT99CLXBsd1+ot0wZbM56vsrLmsNo6hIS6OV2JHUcxhV4TKqWraJGhrCjhEtUSt4e8kv3a294m1rg77AfritmOaxZbFFTStNVSQxDv5VG7DZdRHU/qMVOxOYVeaDMXrqjvJtSlTpsFW3IDzvh1NR68ol75hJLUVzd63+lCbX+QPxwa8it3IDw5gmYVlMK1KqmcsdUgcSBiQQpKhRYXIvxsAN+OPRuz9FVQZZHFIYSUOkd2SBbyGM1JSpHTB4Lq62ZWHEEcMbLs67T5FQySEu5hUMzbliNrk8zth8D2bM2fBGD2j7BdFQJGocDxW4nEdLphrJxHG1l3vyLEW2+u3lgiGEUFzsAMWMpYNADqKtquAeA3t9cNDGmzpzq2B4aOClp3kcWC3Y26+WAr0bVU7Vcv8Q7AfyjpjXVdEHJR2HdXvsd/IYrjLVFgHsP9uElhlVIpDPFO2UcmpwclmgAtdnFvU3xYpXMiU0a7cS/lbb8/yxZp41p5ZIl93Zv38sVKaMQZjOu9msy+nl++eDq40n+gbKTbX7K/aSxp5hz7iX/4bA3JWX7mnW2C1anfVQRt1KMDjN5W7QzGmPvISp+BxHLHxI0YHacTQZSujMKhJVHdCPUHPBQSL38ufxxVqMjqYuz02WU6K+xAKsNJF+AP6Y5/iklDmtLFGrOszeNQ+nYX8j1xoDXwzEU6m0jltNhwPltti+KMJxSvkhllkhPZLgwPZRDl+dS0zgoWQqynYhgeB+uLWcNLRZgsUY9hWSb/AOk7X+YAGNJmuW00MNRXJBGKlWEmuxJtcatzw2vgTnMX3yg1xbyRkOmJ5IaOiuPIsj2odWuI6Zj1GNN2XmiTs/QqzgHur2PmSf1xicwmFRlaTxNdSt8aqgTuaGniv/DiVfkBh+lXLZPqn2pDhE8pU1HhQcI/64nWpWn8Wm6j8PXElP8AealTHWIga/gZDyw3/DmLl3PhF7KfzxohCnaM0p7Lk7PWPURBoI2Fhsp2/wCMcM0mi8dPK2xsbrY/XEscarccMV66M09HUz0sEb1McbPEH4M4G1/jbGlpETsu06NYjUnP9+eIatCCs8Yu6cuo6YF1OcVkGX00tbQsaxKgQzwKNLEm1tO7AXBHMi+197g5VqsI1K2qNvdbGLJUm6NMLVWUlCzThxuCm30wDzGmWkzfvydKPGWa/VeP0tjQ5dH3hdh7v4SMDe1FKX7iQ30IbPt1II/LBnC8A+OdZwTlwaorJMwqBpsNMSH8I/rgvlBE2cC5HsYy3xJA/K+KMbgQXFuO1sE+y1P/AJeaqf3pnsCf5V/vfGfpobZEaOplUGGK6NZ6WWJtxJGyE26i364yWWTlqdVfZ18LA42ZNxwxmqvLpDn4SnAValS+52DD3v6/HGrqcTaTRk6eaTaZnqqnamlnSP8Agy7lRyJ543kA1Qxtb3lBxSHZ3VMzzzMQALaQAD1G++LFRUZoslqKKFYABpBcf0wuBPHdoPU5FOqCP3unMhi1jWqqSOgPP0xLKRove1ufngVH2foVzGHMqaJYalWPeOqD2oK2sTx6fLF5QkzsWjGpGKk4smQGvTyBSyvqNxa+1vlx54DdoMzaDMcjyyHSZa/MESQX3REHeNt56QN+ROD8hMaM3vJY323GBNfTNNmfZiuaBY0p5ZbA7spaBgOO/AG/nbB2oWjNZxV9oKv7QKdcuymeLLYpTSVFS86qtQoXUxVCLhhquCNjb5absnNHmeUuZVYL94e6F7lTe+ktYXsTxG2DACzVkJfdo7uvkbaf1xNZI3d7WHE2HHEtblsUU+3USUsKWI13AtcyMb+Z33O3HHHooZI+6ddcZWzKxvq9Sdz/AHxHNLSyLHK8oZARpAI4kixPpiA0NPYItWdjZgzg3HEgjDWLRFJkNKQdgfFqN9rki3K1hzsMdpKE0tNFDGDIigKHFvFtfV5DEr5fB3ZBq5QqjcmQHYjmSMWqV4hBEEfZuGs+Ik729cdFau0GTbVNlC7sqFBp1WNpAVOnncHcH1w/ue7kLSSCxNuFreV8T1s7xzxRmK6vfS43sR1wxk1L7SxJ/CBsMPtYiQ92VQCxtw2w2nrKeVCYnDKGK3HC4Nj9cV3i+8QT0kXsj3enVxIvfcDnijTdnMmoYhClJGtrXPd+8bWvttywrYwVErOlopA2nw7jgcRJanAVmNnbdma5LE8sVIc7y0rEfvSjW2hV/Fc9RxHDifLDO0UVNU0jQzVIiEdpAQ9mLAgjYbkXsLeeBaq0Nq9qYTlrKaCVYZ5PGV1BVG9upxVzT7jm1MKeeepjjDq/sToa6kEeLiNxywGpoI4blBu3vMTcn1OLceMzzuRs/ixS5fJby6kpKKpeoWurpneMRkTyagB1AtscFBUw3uGP/rgHKWUBvvAiXhuoOGxTB2Omt4KDYKPXDxkyU8UUXzl1EWDCWYMLb7b2AHToPz64cMuovDZ5fCQeW9jty6bemB0FRHMh11LKxJ0h1Fxe3IHy29fjiRH1JdK4sEGqwQDb4+uHJ0E56enmVw0kgDvrIG34dNuHC31xxFijNOiv7OHcXG7bEb7W53vgZ30LyLLFViMvxXQLnht++uLqBlQB31tza1r45yDGCZdepgIsxPyOIfvMT0/frIDHxDeXn0xVfAyty+knIErmFXkXUysVDG9xw62t8cBZGM8Cq0GVRxJ3q7MVsy3upHlib7yqEq06qw4gris1dTU9D94mmBSNQCyeLUeXDrtivJm1CpAFQrgDYx+IfMYraRBRb8Iz4VTxUHa24w7uiDrM8zElQQ7lgRfz9cLCx5iZ700n5LyYnjwsLDxISLC4mTCwsWRnkSrh+FhYckxHnhhwsLHM5ET4qVQ1RkXtcgXHLfHcLE2ViVBTLFweRhcmzuSL9bcL45YLsoAHQDCwsRky8FR//9k=",
+    "fundo": "https://plus.unsplash.com/premium_photo-1748012830674-b91b04bf3d81?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "idade": 12,
+    "genero": [
+      "Serie Comédia"
+    ]
   },
   {
     "id": 4,
-    "titulo": "Pulp Fiction: Tempo de Violência",
-    "descricao": "As vidas de dois assassinos da máfia, um boxeador, uma esposa de gângster e um par de ladrões se entrelaçam em quatro histórias de violência e redenção.",
-    "imagem": "https://images.unsplash.com/photo-1633220744880-cdf6c2b39f57?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://images.unsplash.com/photo-1494587351196-bbf5f29cff42?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avalicao": 8.9,
-    "ano": 1994,
-    "genero": ["Crime", "Drama"],
-    "duracao": 154,
-    "diretor": "Quentin Tarantino"
+    "titulo": "Arcanjo Renegado",
+    "descricao": "Um sargento do BOPE enfrenta o crime organizado enquanto lida com conflitos familiares e políticos.",
+    "imagem": "https://picsum.photos/300/450?random=4",
+    "fundo": "https://picsum.photos/1280/720?random=4",
+    "idade": 16,
+    "genero": [
+      "Série",
+      "Ação",
+      "Drama"
+    ]
   },
   {
     "id": 5,
-    "titulo": "Matrix",
-    "descricao": "Um programador de computador aprende sobre a verdadeira natureza de sua realidade e seu papel no conflito com seus controladores.",
-    "imagem": "https://images.unsplash.com/photo-1691085465046-807f880ba9d7?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avalicao": 8.7,
-    "ano": 1999,
-    "genero": ["Ficção Científica", "Ação"],
-    "duracao": 136,
-    "diretor": "Lana Wachowski, Lilly Wachowski"
+    "titulo": "Os Outros",
+    "descricao": "Conflitos entre vizinhos transformam um condomínio de luxo em um ambiente de tensão e violência.",
+    "imagem": "https://picsum.photos/300/450?random=5",
+    "fundo": "https://picsum.photos/1280/720?random=5",
+    "idade": 16,
+    "genero": [
+      "Série",
+      "Drama",
+      "Suspense"
+    ]
   },
   {
     "id": 6,
-    "titulo": "Forrest Gump",
-    "descricao": "A história de vida de um homem com baixa inteligência que presencia e participa em eventos históricos significativos nos EUA do século XX.",
-    "imagem": "https://images.unsplash.com/photo-1663868652528-04970e627cc2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://images.unsplash.com/photo-1733084275706-441432c4a466?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avalicao": 8.8,
-    "ano": 1994,
-    "genero": ["Drama", "Romance"],
-    "duracao": 142,
-    "diretor": "Robert Zemeckis"
+    "titulo": "Encantado's",
+    "descricao": "Após herdar um supermercado no subúrbio carioca, a família Ponza enfrenta situações hilárias enquanto tenta manter o negócio funcionando.",
+    "imagem": "https://picsum.photos/300/450?random=6",
+    "fundo": "https://picsum.photos/1280/720?random=6",
+    "idade": 12,
+    "genero": [
+      "Série",
+      "Comédia"
+    ]
   },
   {
     "id": 7,
-    "titulo": "Um Sonho de Liberdade",
-    "descricao": "Dois homens presos formam uma amizade ao longo de muitos anos, encontrando consolo e redenção através de atos de decência comum.",
-    "imagem": "https://images.unsplash.com/photo-1492681290082-e932832941e6?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://plus.unsplash.com/premium_photo-1668091148044-056cd744e64a?q=80&w=890&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avaliacao": 9.3,
-    "ano": 1994,
-    "genero": ["Drama"],
-    "duracao": 142,
-    "diretor": "Frank Darabont"
+    "titulo": "Cidade Invisível",
+    "descricao": "Um policial investiga crimes misteriosos e descobre criaturas do folclore brasileiro vivendo entre os humanos.",
+    "imagem": "https://picsum.photos/300/450?random=7",
+    "fundo": "https://picsum.photos/1280/720?random=7",
+    "idade": 16,
+    "genero": [
+      "Série",
+      "Fantasia",
+      "Suspense"
+    ]
   },
   {
     "id": 8,
-    "titulo": "Gladiator",
-    "descricao": "Um ex-general romano é vendido como escravo e deve lutar pela sua liberdade na arena enquanto busca vingança.",
-    "imagem": "https://images.unsplash.com/flagged/photo-1571682927434-70ea1034fd1e?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://plus.unsplash.com/premium_photo-1661963989923-17181d237cef?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avaliacao": 8.5,
-    "ano": 2000,
-    "genero": ["Ação", "Drama", "Aventura"],
-    "duracao": 155,
-    "diretor": "Ridley Scott"
+    "titulo": "Vale Tudo",
+    "descricao": "Raquel e Maria de Fátima vivem um intenso conflito entre honestidade e ambição em uma das novelas mais marcantes da TV.",
+    "imagem": "https://picsum.photos/300/450?random=8",
+    "fundo": "https://picsum.photos/1280/720?random=8",
+    "idade": 14,
+    "genero": [
+      "Novela",
+      "Drama"
+    ]
   },
   {
     "id": 9,
-    "titulo": "Avatar",
-    "descricao": "Um paraplégico fuzileiro naval é enviado para a lua Pandora em uma missão, mas termina se apaixonando pela civilização nativa.",
-    "imagem": "https://images.unsplash.com/photo-1664464168752-96356b904f0a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://images.unsplash.com/photo-1598814710703-d29de980cc8a?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avalicao": 7.8,
-    "ano": 2009,
-    "genero": ["Ficção Científica", "Aventura", "Romance"],
-    "duracao": 162,
-    "diretor": "James Cameron"
+    "titulo": "Sob Pressão",
+    "descricao": "Médicos enfrentam desafios extremos em um hospital público enquanto lidam com dramas pessoais.",
+    "imagem": "https://picsum.photos/300/450?random=9",
+    "fundo": "https://picsum.photos/1280/720?random=9",
+    "idade": 14,
+    "genero": [
+      "Série",
+      "Drama",
+      "Medicina"
+    ]
   },
   {
     "id": 10,
-    "titulo": "Titanic",
-    "descricao": "Um jovem pobre e uma jovem mulher rica se conhecem e se apaixonam no navio Titanic, que está fadado a um destino trágico.",
-    "imagem": "https://images.unsplash.com/photo-1520461557769-cf30653fd08b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fundo": "https://images.unsplash.com/photo-1500077423678-25eead48513a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "avaliacao": 7.8,
-    "ano": 1997,
-    "genero": ["Drama", "Romance"],
-    "duracao": 194,
-    "diretor": "James Cameron"
+    "titulo": "Sessão de Terapia",
+    "descricao": "Um terapeuta e seus pacientes revelam conflitos, segredos e emoções profundas ao longo das sessões.",
+    "imagem": "https://picsum.photos/300/450?random=10",
+    "fundo": "https://picsum.photos/1280/720?random=10",
+    "idade": 16,
+    "genero": [
+      "Série",
+      "Drama"
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Justiça",
+    "descricao": "Quatro histórias marcadas por tragédias se cruzam após anos, revelando dilemas sobre vingança, perdão e recomeços.",
+    "imagem": "https://picsum.photos/300/450?random=11",
+    "fundo": "https://picsum.photos/1280/720?random=11",
+    "idade": 16,
+    "genero": [
+      "Série",
+      "Drama",
+      "Suspense"
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "As Five",
+    "descricao": "Anos após o fim do ensino médio, cinco amigas enfrentam os desafios da vida adulta, dos relacionamentos e da carreira.",
+    "imagem": "https://picsum.photos/300/450?random=12",
+    "fundo": "https://picsum.photos/1280/720?random=12",
+    "idade": 14,
+    "genero": [
+      "Série",
+      "Drama",
+      "Comédia"
+    ]
   }
 ]
